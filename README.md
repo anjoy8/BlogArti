@@ -6,7 +6,7 @@
 
 2、Blog.Core_IOC&DI      ->  依赖注入IoC学习【文章对应：09】
 
-3、Blog.Core_JWT         ->  JWT权限验证【05-36-37】
+3、Blog.Core_JWT         ->  JWT权限验证【文章对应：05-36-37】
 
 4、其他需求再更新...
 
