@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="T:Model.Common.MessageModel`1">
+            <summary>
+            消息实体类
+            </summary>
+        </member>
+        <member name="P:Model.Common.MessageModel`1.Success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:Model.Common.MessageModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Model.Common.MessageModel`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:Model.Common.LayUITableModel`1.code">
+            <summary>
+            操作是否成功 0成功 1失败
+            </summary>
+        </member>
+        <member name="P:Model.Common.LayUITableModel`1.msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Model.Common.LayUITableModel`1.count">
+            <summary>
+            返回数据集数量
+            </summary>
+        </member>
+        <member name="P:Model.Common.LayUITableModel`1.data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="T:Model.SysSample">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.id">
+            <summary>
+            标识
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.bir">
+            <summary>
+            生日
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.photo">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.note">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="P:Model.SysSample.createtime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Model.UtilConvert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToInt(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToInt(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToMoney(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToMoney(System.Object,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToString(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToString(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDecimal(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDecimal(System.Object,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDate(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToDate(System.Object,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Model.UtilConvert.ObjToBool(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

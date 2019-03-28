@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppCore</name>
+    </assembly>
+    <members>
+        <member name="M:AppCore.Controllers.ValuesController.Get">
+            <summary>
+            获取值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AppCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            根据id获取
+            </summary>
+            <param name="id">标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:AppCore.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            提交
+            </summary>
+            <param name="value">表单值</param>
+        </member>
+        <member name="M:AppCore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            修改
+            </summary>
+            <param name="id">标识</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:AppCore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id">标识</param>
+        </member>
+    </members>
+</doc>

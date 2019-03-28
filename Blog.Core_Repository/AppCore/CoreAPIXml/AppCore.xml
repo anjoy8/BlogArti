@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppCore</name>
+    </assembly>
+    <members>
+        <member name="M:AppCore.Controllers.SysSampleController.Get(System.String)">
+            <summary>
+             获取列表
+            </summary>
+            <param name="id">根据id获取</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
