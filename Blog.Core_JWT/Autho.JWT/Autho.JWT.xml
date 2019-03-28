@@ -6,8 +6,15 @@
     <members>
         <member name="M:Autho.JWT.Controllers.ValuesController.Get">
             <summary>
-            这个需要授权，其他的不需要
+            这个需要认证，角色必须是Admin，其他的不需要
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autho.JWT.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            这个也需要认证，只不过登录即可，不一定是Admin
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:Autho.JWT.Controllers.ValuesController.GetJWTToken(System.String,System.String)">

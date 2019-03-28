@@ -4,7 +4,7 @@
     "Autho.JWT.Policy": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5981",
+      "applicationUrl": "http://localhost:5103",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

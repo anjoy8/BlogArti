@@ -14,6 +14,6 @@ namespace Repository.sugar
         //public static string ConnectionString = "server=.;uid=sa;pwd=sa;database=AppsDB_new"; 
 
         //ioc注入使用
-        public static string ConnectionString = Appsettings.app(new string[] { "AppSettings", "RedisCaching", "ConnectionString" });//获取连接字符串
+        public static string ConnectionString = Appsettings.app(new string[] { "AppSettings", "SqlServer", "SqlServerConnection" });//获取连接字符串
     }
 }

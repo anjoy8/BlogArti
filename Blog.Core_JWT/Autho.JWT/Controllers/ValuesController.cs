@@ -12,7 +12,7 @@ namespace Autho.JWT.Controllers
     public class ValuesController : ControllerBase
     {
         /// <summary>
-        /// 这个需要授权，其他的不需要
+        /// 这个需要认证，角色必须是Admin，其他的不需要
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -22,7 +22,11 @@ namespace Autho.JWT.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        /// <summary>
+        /// 这个也需要认证，只不过登录即可，不一定是Admin
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         [Authorize]
         public ActionResult<string> Get(int id)
