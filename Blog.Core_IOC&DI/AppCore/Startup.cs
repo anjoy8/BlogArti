@@ -87,11 +87,11 @@ namespace AppCore
             try
             {
                 var servicesDllFile = Path.Combine(basePath, "Services.dll");
-                var assemblysServices = Assembly.LoadFile(servicesDllFile);
+                var assemblysServices = Assembly.LoadFrom(servicesDllFile);
                 builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();
 
                 var repositoryDllFile = Path.Combine(basePath, "Repository.dll");
-                var assemblysRepository = Assembly.LoadFile(repositoryDllFile);
+                var assemblysRepository = Assembly.LoadFrom(repositoryDllFile);
                 builder.RegisterAssemblyTypes(assemblysRepository).AsImplementedInterfaces();
 
             }

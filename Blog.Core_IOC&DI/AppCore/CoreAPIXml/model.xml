@@ -59,31 +59,6 @@
             名称
             </summary>
         </member>
-        <member name="P:Model.SysSample.age">
-            <summary>
-            年龄
-            </summary>
-        </member>
-        <member name="P:Model.SysSample.bir">
-            <summary>
-            生日
-            </summary>
-        </member>
-        <member name="P:Model.SysSample.photo">
-            <summary>
-            图片
-            </summary>
-        </member>
-        <member name="P:Model.SysSample.note">
-            <summary>
-            说明
-            </summary>
-        </member>
-        <member name="P:Model.SysSample.createtime">
-            <summary>
-            创建时间
-            </summary>
-        </member>
         <member name="T:Model.UtilConvert">
             <summary>
             
