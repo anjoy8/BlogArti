@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;
@@ -84,6 +85,13 @@ namespace Autho.JWT
             return _next(httpContext);
         }
 
+    }
+    public static class MiddlewareHelpers
+    {
+        public static IApplicationBuilder UseJwtTokenAuth(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<JwtTokenAuth>();
+        }
     }
 }
 

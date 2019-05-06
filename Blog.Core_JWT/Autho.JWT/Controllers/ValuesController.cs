@@ -16,7 +16,7 @@ namespace Autho.JWT.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy  = "SystemOrAdmin")]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
