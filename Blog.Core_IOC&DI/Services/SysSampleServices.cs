@@ -14,13 +14,18 @@ namespace Services
         //普通的仓储例子
         ISysSampleRepository dal;
 
+        public SysSampleServices()
+        {
+        }
+
         public SysSampleServices(ISysSampleRepository dal)
         {
             this.dal = dal;
             base.baseDal = dal;
         }
 
- 
+
+
 
         public int Sum(int i, int j)
         {
